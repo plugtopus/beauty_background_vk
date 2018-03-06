@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="settings.css">
+	<link rel='stylesheet' href='spectrum/spectrum.css' />
+</head>
+<body>
+	<div class="settings">
+		<div class="settings-header"></div>
+		<div class="settings-body">
+			<div class="rate-block rate-block-top">
+				<span><a href="installed.html#howto" target="_blank" class="how-to-install">Как установить свой фон?</a></span>
+			</div>
+			<div class="settings-block">
+				<p class="settings-label">Ваши обои</p>
+				<div class="backgrounds-block"></div>
+			</div>
+			<div class="settings-block">
+				<div class="switcher-block switcher-enabled" data-block="background-rotate" data-param="rotation">
+					<div class="switcher"></div>
+					<span class="switcher-label">Менять фон</span>
+				</div>
+				<div class="inner-block" data-block="background-rotate">
+					<div class="sub-inner-block">
+						<div class="option-block">
+							<div class="dropdown-menu" data-menu="time"></div>
+							<div class="dropdown-menu" data-menu="order"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="settings-block">
+				<div class="switcher-block switcher-enabled" data-block="page-stroke" data-param="stroke">
+					<div class="switcher"></div>
+					<span class="switcher-label">Обводка сайта</span>
+				</div>
+				<div class="inner-block" data-block="page-stroke">
+					<div class="sub-inner-block">
+						<div class="option-block">
+							<span class="option-label">Прозрачность</span>
+							<input type="range" min="0" max="100" class="option-slider" data-slider="stroke" data-param="opacity">
+						</div>
+						<div class="option-block">
+							<span class="option-label">Толщина</span>
+							<input type="range" min="0" max="100" class="option-slider" data-slider="stroke" data-param="size">
+						</div>
+						<div class="option-block">
+							<span class="option-label">Размытие</span>
+							<input type="range" min="0" max="200" class="option-slider" data-slider="stroke" data-param="blur">
+						</div>
+						<div class="option-block">
+							<span class="option-label">Цвет</span>
+							<input type="color" id="stroke-color">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="settings-block">
+				<div class="switcher-block switcher-enabled" data-block="page-opacity" data-param="opacity">
+					<div class="switcher"></div>
+					<span class="switcher-label">Прозрачность и цвет сайта</span>
+				</div>
+				<div class="inner-block" data-block="page-opacity">
+					<div class="sub-inner-block">
+						<div class="option-block">
+							<span class="option-label">Прозрачность</span>
+							<input type="range" min="0" max="100" class="option-slider" data-slider="page" data-param="opacity">
+						</div>
+						<div class="option-block">
+							<span class="option-label">Цвет</span>
+							<input type="color" id="page-color">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="settings-block">
+				<div class="switcher-block switcher-enabled" data-block="ex-enabled" data-param="extension">
+					<div class="switcher"></div>
+					<span class="switcher-label">Расширение включено</span>
+				</div>
+			</div>
+			<div class="settings-block reset-settings">
+				<p>СБРОСИТЬ ВСЕ НАСТРОЙКИ</p>
+			</div>
+		</div>
+	</div>
+	<div class="rate-block">
+		<span>Если вам понравилось расширение<br>оцените его в <a href="Ссылка" target="_blank">Google WebStore</a>.<br>Спасибо!</span>
+		<span>Если у вас что-то не работает,<br>пишите <a href="Ссылка" target="_blank">в эту группу ВКонтакте</a>.<br>Попытаемся вместе всё исправить :)</span>
+	</div>
+	<script type="text/javascript" src="/javascript/jqmini.js"></script>
+	<script type="text/javascript" src="Sortable.js"></script>
+	<script type="text/javascript" src="spectrum/spectrum.js"></script>
+	<script type="text/javascript" src="/javascript/vk_app.js"></script>
+	<script type="text/javascript" src="/javascript/functions.js"></script>
+	<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>
